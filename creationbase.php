@@ -22,10 +22,10 @@ mysql_connect("serveur.sql", "user", "sesame") or die(mysql_error());
 		t_ssh INT,
 		t_url INT,
 		t_ping INT,
-	  r_ssh INT,
+	        r_ssh INT,
 		r_url INT,
-		r_ping INT
-	
+		r_ping INT,
+		sms INT
 	  PRIMARY KEY(id)
 	)") Or die(mysql_error());
 	mysql_close ();
