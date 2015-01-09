@@ -9,3 +9,6 @@ mkdir /data/fonc
 
 cp ./ServerPing.php /data/fonc/
 cp ./maj_sup.php /data/
+
+# Creation des bases
+php creationbase.php
